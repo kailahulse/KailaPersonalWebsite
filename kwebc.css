@@ -1,0 +1,51 @@
+body {
+    background-color: #b47ede;
+}
+#KailaImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.footerP {
+    display: inline-block;
+    padding-right: 5px;
+}
+.footerA {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer:hover {
+    background-color: #b47ede;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0% {background-color: #b47ede;}
+    50% {background-color: #7edeb4;}
+    100% {background-color: #b47ede;}
+}
+#Outter_DivRes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.innerDivRes{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+#innerDivResOne{
+    border-right-width: 0px;
+}
