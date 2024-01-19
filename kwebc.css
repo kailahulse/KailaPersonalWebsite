@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 70vh; /* Adjust the height as needed */
+    height: 60vh; /* Adjust the height as needed */
     background-color: #b47ede;
     z-index: 1; /* Ensure it's higher than the default stacking order */
 }
@@ -34,7 +34,7 @@
     /*display: block;*/
      margin-left: 700px;
     margin-right: 0px; 
-    margin-top: -250px;
+    margin-top: -350px;
 }
 #Welcome_t {
     /* position: relative; */
@@ -71,6 +71,7 @@
     width: 100%;
     text-align: center;
     display: inline-block;
+    margin-top: 100px;
 }
 .footerP {
     display: inline-block;
@@ -95,18 +96,46 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .innerDivRes{
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
-    padding: 30px;
-    text-align: center;
+    padding: 20px 90px;
+    font-size: 16px;
+    background-color: #b47ede;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0px;
+}
+.innerDivResP{
+    padding: 20px 90px;
+    font-size: 16px;
+    background-color: #b47ede;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 300px;
+    margin-top: 0px;
 }
 
 #innerDivResOne{
     border-right-width: 0px;
+}
+
+.hover-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #2980b9;
 }
 
 #intro,

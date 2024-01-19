@@ -1,0 +1,34 @@
+#projH {
+    text-align: center;
+}
+#Outter_DivRes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 180px;
+}
+.innerDivRes{
+    padding: 20px 90px;
+    font-size: 16px;
+    background-color: #b47ede;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0px;
+}
+.innerDivResP{
+    padding: 20px 90px;
+    font-size: 16px;
+    background-color: #b47ede;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+#innerDivResOne{
+    border-right-width: 0px;
+}
