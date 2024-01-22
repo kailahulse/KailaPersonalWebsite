@@ -92,32 +92,29 @@
     50% {background-color: #7edeb4;}
     100% {background-color: #b47ede;}
 }
-#Outter_DivRes{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+#Outter_DivRes a{
+    /* display: flex;
+    justify-content: center; */
     margin-top: 180px;
 }
-.innerDivRes{
-    padding: 20px 90px;
+.innerDivRes,
+.innerDivResP {
+    padding: 30px 100px;
     font-size: 16px;
     background-color: #b47ede;
     color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: 0px;
+    display: inline-block;
+    margin: 240px; /* Remove any margin */
+    text-decoration: none; /* Remove default underline for links */
+    max-width: 290px;
 }
-.innerDivResP{
-    padding: 20px 90px;
-    font-size: 16px;
-    background-color: #b47ede;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 300px;
-    margin-top: 0px;
+
+.innerDivRes:hover,
+.innerDivResP:hover {
+    background-color: #7edeb4;
 }
 
 #innerDivResOne{
